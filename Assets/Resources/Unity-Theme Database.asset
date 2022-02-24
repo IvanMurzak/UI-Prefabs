@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   debug: 1
   currentThemeIndex:
-    value: 0
+    value: 1
   themes:
   - themeName: Light
     colors:
@@ -63,6 +63,28 @@ MonoBehaviour:
       color: {r: 0.5019608, g: 0.5803922, b: 0.57238513, a: 1}
     - name: Primary Light
       color: {r: 0.88235295, g: 0.96862745, b: 0.94893736, a: 1}
+    - name: Secondary
+      color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+    - name: Secondary Dark
+      color: {r: 0, g: 0, b: 0, a: 1}
+    - name: Secondary Light
+      color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
+  - themeName: New Theme
+    colors:
+    - name: Accent
+      color: {r: 0.47277546, g: 0.13817197, b: 0.6509434, a: 1}
+    - name: On Accent
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - name: On Primary
+      color: {r: 0, g: 0, b: 0, a: 1}
+    - name: On Secondary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - name: Primary
+      color: {r: 0.6901961, g: 0.74509805, b: 0.77254903, a: 1}
+    - name: Primary Dark
+      color: {r: 0.5019608, g: 0.5529412, b: 0.5803922, a: 1}
+    - name: Primary Light
+      color: {r: 0.88235295, g: 0.9372549, b: 0.96862745, a: 1}
     - name: Secondary
       color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
     - name: Secondary Dark
