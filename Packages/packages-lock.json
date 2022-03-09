@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.neuecc.unirx": {
-      "version": "7.1.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.org"
-    },
     "com.unity.2d.animation": {
       "version": "5.0.10",
       "depth": 1,
@@ -123,12 +116,10 @@
       }
     },
     "extensions.unity.theme": {
-      "version": "0.0.1",
+      "version": "0.0.2",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.neuecc.unirx": "7.1.0"
-      },
+      "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
     "com.unity.modules.animation": {
