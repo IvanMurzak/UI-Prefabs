@@ -136,12 +136,28 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.8240223
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294955520
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245754336014532636, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: colorGuid
+      value: 648e1a33-8550-4352-8c6b-0272efabeae1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}

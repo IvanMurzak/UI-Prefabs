@@ -157,11 +157,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_fontColor.a
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 2164260863
+      value: 2566914048
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_VerticalAlignment
@@ -169,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8245754336014532636, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: alpha
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8245754336014532636, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: overrideAlpha
@@ -507,6 +507,10 @@ PrefabInstance:
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_text
       value: "\u200B"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_VerticalAlignment

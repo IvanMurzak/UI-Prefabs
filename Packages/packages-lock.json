@@ -116,7 +116,7 @@
       }
     },
     "extensions.unity.theme": {
-      "version": "0.0.6",
+      "version": "0.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

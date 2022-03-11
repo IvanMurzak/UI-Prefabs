@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0177d57821363004c93f53d52490d141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: On Accent
+  colorGuid: 3ffc2459-c7d3-45d8-883d-8ff62467d4ed
   overrideAlpha: 0
   alpha: 1
   textMeshPro: {fileID: 2836574385631236910}

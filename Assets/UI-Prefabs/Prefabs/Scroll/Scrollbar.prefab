@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5019608, g: 0.5529412, b: 0.5803922, a: 1}
+  m_Color: {r: 0.5019608, g: 0.5568628, b: 0.58431375, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5162ee87061045ba821e0dfb969d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: Primary Dark
+  colorGuid: 2d2c289f-a2a0-4901-812b-b2eda992c2dc
   overrideAlpha: 0
   alpha: 1
   image: {fileID: 7725918059068766966}
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.88235295, g: 0.9372549, b: 0.96862745, a: 1}
+  m_Color: {r: 0.8862745, g: 0.94509804, b: 0.972549, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5162ee87061045ba821e0dfb969d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: Primary Light
+  colorGuid: 44f8276a-7b6d-4629-8c8d-b83aaa18f1da
   overrideAlpha: 0
   alpha: 1
   image: {fileID: 7725918060966311619}

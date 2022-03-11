@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5162ee87061045ba821e0dfb969d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: On Primary
+  colorGuid: 9d971b98-7809-4fab-a9c9-deaace4a8097
   overrideAlpha: 0
   alpha: 1
   image: {fileID: 3550869242955729600}
@@ -99,6 +99,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 758290001128352336, guid: 9d3fc4284925a2947ae8fb7b8f4f1baa, type: 3}
+      propertyPath: m_Color.b
+      value: 0.77254903
+      objectReference: {fileID: 0}
+    - target: {fileID: 758290001128352336, guid: 9d3fc4284925a2947ae8fb7b8f4f1baa, type: 3}
+      propertyPath: m_Color.g
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 758290001128352336, guid: 9d3fc4284925a2947ae8fb7b8f4f1baa, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6901961
+      objectReference: {fileID: 0}
     - target: {fileID: 758290001128352338, guid: 9d3fc4284925a2947ae8fb7b8f4f1baa, type: 3}
       propertyPath: m_Name
       value: panel-primary

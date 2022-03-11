@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5162ee87061045ba821e0dfb969d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: On Accent
+  colorGuid: 3ffc2459-c7d3-45d8-883d-8ff62467d4ed
   overrideAlpha: 0
   alpha: 1
   image: {fileID: 6779826248402196547}
@@ -99,6 +99,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2883001242706943845, guid: 6cf4b1df615b83f4896e6be3b2d27d4b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8240223
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883001242706943845, guid: 6cf4b1df615b83f4896e6be3b2d27d4b, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5991066721093153859, guid: 6cf4b1df615b83f4896e6be3b2d27d4b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

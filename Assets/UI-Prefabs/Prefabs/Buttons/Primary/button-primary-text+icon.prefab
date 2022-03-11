@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5162ee87061045ba821e0dfb969d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: On Primary
+  colorGuid: 9d971b98-7809-4fab-a9c9-deaace4a8097
   overrideAlpha: 0
   alpha: 1
   image: {fileID: 8728138102169127714}
@@ -106,6 +106,30 @@ PrefabInstance:
     - target: {fileID: 3310630542620624584, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3310630542620624587, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3310630542620624587, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3310630542620624587, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585991989380713106, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
+      propertyPath: m_Color.b
+      value: 0.77254903
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585991989380713106, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
+      propertyPath: m_Color.g
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585991989380713106, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6901961
       objectReference: {fileID: 0}
     - target: {fileID: 7522550122085389441, guid: 2bc0dacdc1f691e4395177d88ee06a61, type: 3}
       propertyPath: m_Pivot.x

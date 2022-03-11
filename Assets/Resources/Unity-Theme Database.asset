@@ -100,6 +100,8 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -113,7 +115,7 @@ MonoBehaviour:
       Data: 1|System.Delegate[], mscorlib
     - Name: 
       Entry: 12
-      Data: 84
+      Data: 86
     - Name: 
       Entry: 7
       Data: 2|Unity.Theme.ThemeDatabase+OnTheme, Unity.Theme
@@ -2905,6 +2907,72 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 173|Unity.Theme.ThemeDatabase+OnTheme, Unity.Theme
+    - Name: target
+      Entry: 10
+      Data: 84
+    - Name: declaringType
+      Entry: 9
+      Data: 3
+    - Name: methodName
+      Entry: 1
+      Data: TrySetColor
+    - Name: delegateType
+      Entry: 9
+      Data: 4
+    - Name: signature
+      Entry: 7
+      Data: 174|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 175|Unity.Theme.ThemeDatabase+OnTheme, Unity.Theme
+    - Name: target
+      Entry: 10
+      Data: 85
+    - Name: declaringType
+      Entry: 9
+      Data: 3
+    - Name: methodName
+      Entry: 1
+      Data: TrySetColor
+    - Name: delegateType
+      Entry: 9
+      Data: 4
+    - Name: signature
+      Entry: 7
+      Data: 176|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -2914,71 +2982,122 @@ MonoBehaviour:
       Entry: 8
       Data: 
   debug: 1
-  currentThemeIndex: 1
+  colors:
+  - guid: 038691a9-bde1-4f73-b7ff-b0ef14f254a8
+    name: Primary
+  - guid: 44f8276a-7b6d-4629-8c8d-b83aaa18f1da
+    name: Primary Light
+  - guid: 2d2c289f-a2a0-4901-812b-b2eda992c2dc
+    name: Primary Dark
+  - guid: d6c78c98-598a-4a1d-b228-edc5958de9aa
+    name: Secondary
+  - guid: ef1c31d3-24d9-4302-ac6a-3b40fbe12a9a
+    name: Secondary Light
+  - guid: 56f70446-cbdd-4aec-97eb-93993cd2116e
+    name: Secondary Dark
+  - guid: 648e1a33-8550-4352-8c6b-0272efabeae1
+    name: Accent
+  - guid: 9d971b98-7809-4fab-a9c9-deaace4a8097
+    name: On Primary
+  - guid: ed0bc9ac-53de-4806-9cfa-42ce0e37668f
+    name: On Secondary
+  - guid: 3ffc2459-c7d3-45d8-883d-8ff62467d4ed
+    name: On Accent
   themes:
   - themeName: Light-Orange
     colors:
-    - name: Accent
-      color: {r: 0.98039216, g: 0.6509804, b: 0.3764706, a: 1}
-    - name: On Accent
-      color: {r: 1, g: 1, b: 1, a: 1}
-    - name: On Primary
-      color: {r: 0, g: 0, b: 0, a: 1}
-    - name: On Secondary
-      color: {r: 1, g: 1, b: 1, a: 1}
-    - name: Primary
+    - guid: 038691a9-bde1-4f73-b7ff-b0ef14f254a8
+      name: Primary
       color: {r: 0.6901961, g: 0.74509805, b: 0.77254903, a: 1}
-    - name: Primary Dark
-      color: {r: 0.5019608, g: 0.5529412, b: 0.5803922, a: 1}
-    - name: Primary Light
-      color: {r: 0.88235295, g: 0.9372549, b: 0.96862745, a: 1}
-    - name: Secondary
+    - guid: 44f8276a-7b6d-4629-8c8d-b83aaa18f1da
+      name: Primary Light
+      color: {r: 0.8862745, g: 0.94509804, b: 0.972549, a: 1}
+    - guid: 2d2c289f-a2a0-4901-812b-b2eda992c2dc
+      name: Primary Dark
+      color: {r: 0.5019608, g: 0.5568628, b: 0.58431375, a: 1}
+    - guid: d6c78c98-598a-4a1d-b228-edc5958de9aa
+      name: Secondary
       color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
-    - name: Secondary Dark
-      color: {r: 0, g: 0, b: 0, a: 1}
-    - name: Secondary Light
+    - guid: ef1c31d3-24d9-4302-ac6a-3b40fbe12a9a
+      name: Secondary Light
       color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
+    - guid: 56f70446-cbdd-4aec-97eb-93993cd2116e
+      name: Secondary Dark
+      color: {r: 0, g: 0, b: 0, a: 1}
+    - guid: 648e1a33-8550-4352-8c6b-0272efabeae1
+      name: Accent
+      color: {r: 0, g: 0.8240223, b: 1, a: 1}
+    - guid: 9d971b98-7809-4fab-a9c9-deaace4a8097
+      name: On Primary
+      color: {r: 0, g: 0, b: 0, a: 1}
+    - guid: ed0bc9ac-53de-4806-9cfa-42ce0e37668f
+      name: On Secondary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 3ffc2459-c7d3-45d8-883d-8ff62467d4ed
+      name: On Accent
+      color: {r: 0, g: 0, b: 0, a: 1}
   - themeName: Light-Red
     colors:
-    - name: Accent
-      color: {r: 0.98039216, g: 0.4119156, b: 0.37647066, a: 1}
-    - name: On Accent
+    - guid: 038691a9-bde1-4f73-b7ff-b0ef14f254a8
+      name: Primary
       color: {r: 1, g: 1, b: 1, a: 1}
-    - name: On Primary
-      color: {r: 0, g: 0, b: 0, a: 1}
-    - name: On Secondary
+    - guid: 44f8276a-7b6d-4629-8c8d-b83aaa18f1da
+      name: Primary Light
       color: {r: 1, g: 1, b: 1, a: 1}
-    - name: Primary
-      color: {r: 0.6901961, g: 0.77254903, b: 0.7506632, a: 1}
-    - name: Primary Dark
-      color: {r: 0.5019608, g: 0.5803922, b: 0.57238513, a: 1}
-    - name: Primary Light
-      color: {r: 0.88235295, g: 0.96862745, b: 0.94893736, a: 1}
-    - name: Secondary
-      color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
-    - name: Secondary Dark
-      color: {r: 0, g: 0, b: 0, a: 1}
-    - name: Secondary Light
-      color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
+    - guid: 2d2c289f-a2a0-4901-812b-b2eda992c2dc
+      name: Primary Dark
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: d6c78c98-598a-4a1d-b228-edc5958de9aa
+      name: Secondary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: ef1c31d3-24d9-4302-ac6a-3b40fbe12a9a
+      name: Secondary Light
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 56f70446-cbdd-4aec-97eb-93993cd2116e
+      name: Secondary Dark
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 648e1a33-8550-4352-8c6b-0272efabeae1
+      name: Accent
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 9d971b98-7809-4fab-a9c9-deaace4a8097
+      name: On Primary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: ed0bc9ac-53de-4806-9cfa-42ce0e37668f
+      name: On Secondary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 3ffc2459-c7d3-45d8-883d-8ff62467d4ed
+      name: On Accent
+      color: {r: 1, g: 1, b: 1, a: 1}
   - themeName: Purple
     colors:
-    - name: Accent
-      color: {r: 0.47277546, g: 0.13817197, b: 0.6509434, a: 1}
-    - name: On Accent
+    - guid: 038691a9-bde1-4f73-b7ff-b0ef14f254a8
+      name: Primary
       color: {r: 1, g: 1, b: 1, a: 1}
-    - name: On Primary
-      color: {r: 0, g: 0, b: 0, a: 1}
-    - name: On Secondary
+    - guid: 44f8276a-7b6d-4629-8c8d-b83aaa18f1da
+      name: Primary Light
       color: {r: 1, g: 1, b: 1, a: 1}
-    - name: Primary
-      color: {r: 0.6901961, g: 0.74509805, b: 0.77254903, a: 1}
-    - name: Primary Dark
-      color: {r: 0.5019608, g: 0.5529412, b: 0.5803922, a: 1}
-    - name: Primary Light
-      color: {r: 0.88235295, g: 0.9372549, b: 0.96862745, a: 1}
-    - name: Secondary
-      color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
-    - name: Secondary Dark
-      color: {r: 0, g: 0, b: 0, a: 1}
-    - name: Secondary Light
-      color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
+    - guid: 2d2c289f-a2a0-4901-812b-b2eda992c2dc
+      name: Primary Dark
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: d6c78c98-598a-4a1d-b228-edc5958de9aa
+      name: Secondary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: ef1c31d3-24d9-4302-ac6a-3b40fbe12a9a
+      name: Secondary Light
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 56f70446-cbdd-4aec-97eb-93993cd2116e
+      name: Secondary Dark
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 648e1a33-8550-4352-8c6b-0272efabeae1
+      name: Accent
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 9d971b98-7809-4fab-a9c9-deaace4a8097
+      name: On Primary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: ed0bc9ac-53de-4806-9cfa-42ce0e37668f
+      name: On Secondary
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - guid: 3ffc2459-c7d3-45d8-883d-8ff62467d4ed
+      name: On Accent
+      color: {r: 1, g: 1, b: 1, a: 1}
+  currentThemeIndex: 0

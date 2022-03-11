@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5162ee87061045ba821e0dfb969d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorName: On Secondary
+  colorGuid: ed0bc9ac-53de-4806-9cfa-42ce0e37668f
   overrideAlpha: 0
   alpha: 1
   image: {fileID: 2821303752824777705}
@@ -99,6 +99,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3749097344300640296, guid: d8716fbad25ac53459820e388ae11b8a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749097344300640296, guid: d8716fbad25ac53459820e388ae11b8a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749097344300640296, guid: d8716fbad25ac53459820e388ae11b8a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.12941177
+      objectReference: {fileID: 0}
     - target: {fileID: 5991066721093153859, guid: d8716fbad25ac53459820e388ae11b8a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

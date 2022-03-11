@@ -277,7 +277,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 30098161331626971, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: alpha
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 30098161331626971, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: overrideAlpha
@@ -377,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: m_fontColor.a
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 2147483648
+      value: 2566914048
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: m_VerticalAlignment
