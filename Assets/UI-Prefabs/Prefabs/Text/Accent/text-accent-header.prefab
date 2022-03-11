@@ -100,8 +100,16 @@ PrefabInstance:
       value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_fontSizeBase
       value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: c1e275a4204bf2d45aeda8e6b9fc9a60, type: 3}
       propertyPath: m_fontColor32.rgba

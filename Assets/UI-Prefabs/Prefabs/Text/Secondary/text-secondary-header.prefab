@@ -100,8 +100,16 @@ PrefabInstance:
       value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: b44978db94d2a8040a13e6ce199bb4c2, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: b44978db94d2a8040a13e6ce199bb4c2, type: 3}
       propertyPath: m_fontSizeBase
       value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: b44978db94d2a8040a13e6ce199bb4c2, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b44978db94d2a8040a13e6ce199bb4c2, type: 3}

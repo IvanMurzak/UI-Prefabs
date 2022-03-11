@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2836574385631236908, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: m_Name
-      value: text-normal-header
+      value: text-primary-header
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236909, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: m_Pivot.x
@@ -100,8 +100,16 @@ PrefabInstance:
       value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 2836574385631236910, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
       propertyPath: m_fontSizeBase
       value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836574385631236910, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df94b50e30b20cb44a9387b71009c887, type: 3}
