@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec90ddf8d34b3254ead1a8bbcde88bc3, type: 3}
+  m_Script: {fileID: 11500000, guid: 06ff1dc9c64b296469122d9b7a7d6df0, type: 3}
   m_Name: Unity-Theme Database
   m_EditorClassIdentifier: 
   serializationData:
